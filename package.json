@@ -1,0 +1,19 @@
+{
+  "name": "arismasecurity",
+  "version": "1.0.0",
+  "description": "arisma security",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "loki",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "discord.js-collector": "^1.8.7",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "request": "^2.88.2"
+  }
+}
