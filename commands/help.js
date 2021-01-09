@@ -10,6 +10,7 @@ module.exports = {
             .addField("User commands: ", "\n :ping_pong: v!ping \n :information_source:  v!help  \n :bust_in_silhouette: v!userinfo \n :busts_in_silhouette: v!serverinfo",true)
             .addField("Admin commands: ", "\n :x: v!kick \n :no_entry: v!ban ",true)
             .addField("Fun commands: ", "\n  :regional_indicator_p: v!image", true)
+            .addField("Roblox commands: ", "\n 🌚 v!ravatar ",true)
             .setColor('BLACK')
             
             message.author.send(helpembed)
