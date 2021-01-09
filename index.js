@@ -16,7 +16,7 @@ for (const file of commandFiles) {
 
 bot.on('ready', () =>{
     console.info(`${bot.user.tag} logged in correctly.`)
-    bot.user.setActivity('your reports', { type: 'LISTENING' });
+    bot.user.setActivity('over your server. ;)', { type: 'WATCHING' });
 });
 
 bot.on('message', message =>{
