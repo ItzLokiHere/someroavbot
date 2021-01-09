@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const fs = require('fs')
 const bot = new Discord.Client()
 const config = require('./config.json')
-const { prefix, token } = configs
+const { prefix, token } = config
 bot.commands = new Discord.Collection()
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
