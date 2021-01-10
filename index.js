@@ -13,11 +13,25 @@ for (const file of commandFiles) {
     bot.commands.set(command.name, command)
 }
 
+    const onlineembed = new Discord.MessageEmbed()
+    .setTitle("Status")
+    .setDescription("I am currently online!")
+    .setTimestamp()
+    .setColor("GREEN")
+    const oflineembed = new Discord.MessageEmbed()
+    .setTitle("Status")
+    .setDescription("Going offline 😴")
+    .setTimestamp()
+    .setColor("RED")
+
 
 bot.on('ready', () =>{
     console.info(`${bot.user.tag} logged in correctly.`)
     bot.user.setActivity('over your naughty server ;)', { type: 'WATCHING' });
+    bot.channels.cache.get('797193396602667048').send(onlineembed)
 });
+
+
 
 bot.on('message', message =>{
 

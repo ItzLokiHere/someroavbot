@@ -3,8 +3,7 @@ module.exports = {
         description: 'help command',
         execute(message, args){
             const Discord = require('discord.js');
-            
-
+              
             const helpembed = new Discord.MessageEmbed()
             .setTitle("Commands")
             .addField("User commands: ", "\n :ping_pong: v!ping \n :information_source:  v!help  \n :bust_in_silhouette: v!userinfo \n :busts_in_silhouette: v!serverinfo",true)
