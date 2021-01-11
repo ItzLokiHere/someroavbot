@@ -18,11 +18,7 @@ for (const file of commandFiles) {
     .setDescription("I am currently online!")
     .setTimestamp()
     .setColor("GREEN")
-    const oflineembed = new Discord.MessageEmbed()
-    .setTitle("Status")
-    .setDescription("Going offline 😴")
-    .setTimestamp()
-    .setColor("RED")
+    
 
 
 bot.on('ready', () =>{
